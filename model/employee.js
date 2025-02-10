@@ -21,7 +21,7 @@ const employeeSchema = new Schema({
   department: {
     type: String,
     required: true,
-    enum: ["sde", "production"],
+    // enum: ["sde", "production"],
   },
   designation: {
     type: String,
